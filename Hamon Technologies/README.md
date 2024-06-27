@@ -28,7 +28,7 @@ return r
     ```
     Corrected version of the code [`question-1.py`](question-1.py)
 
-2. There is a logical error in the else statement, instead of assigning 0 we should assign r[i] = 1, else we will get 0 for the first occurrence and if a character occurs twice it will show 1 instead of storing the exact occurrences and goes on, which is the total number of occurrences-1 will be stored as value.
+2. There is a logical error in the else statement, instead of assigning 0 we should assign `r[i] = 1`, else we will get 0 for the first occurrence and if a character occurs twice it will show 1 instead of storing the exact occurrences and goes on, which is the total number of occurrences-1 will be stored as value.
 
 
     ```python
