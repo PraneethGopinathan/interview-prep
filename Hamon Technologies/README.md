@@ -21,10 +21,12 @@ return r
 **Answers:**
 
 1.  This function takes a string 's' as input and returns a dictionary 'r' where the keys are characters from the string and the values are the counts of how many times each character appears in the string. So basically it simply returns the number of occurrences of character in the string.
-Parameters:
-s (str): The input string to be processed.
-Returns:
-r (dict): A dictionary with characters as keys and their respective counts as values.
+    ```
+    Parameters: s (str): The input string to be processed.
+    
+    Returns: r (dict): A dictionary with characters as keys and their respective counts as values.
+    ```
+    Corrected version of the code [`question-1.py`](question-1.py)
 
 2. There is a logical error in the else statement, instead of assigning 0 we should assign r[i] = 1, else we will get 0 for the first occurrence and if a character occurs twice it will show 1 instead of storing the exact occurrences and goes on, which is the total number of occurrences-1 will be stored as value.
 
@@ -39,7 +41,7 @@ r (dict): A dictionary with characters as keys and their respective counts as va
     {'p': 1, 'r': 1, 'a': 1, 'n': 1, 'e': 2, 't': 1, 'h': 1}
     ```
 
-3. Unitest: **_Pytest_** is the package I use to test the FastAPI framework so using the same here [question1.py](question1.py)
+3. Unitest: **_Pytest_** is the package I use to test the FastAPI framework so using the same here [`question-1_unit-test.py`](question-1_unit-test.py)
 
 ---
 ### Question 2:

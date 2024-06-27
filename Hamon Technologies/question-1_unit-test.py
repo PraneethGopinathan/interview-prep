@@ -1,3 +1,6 @@
+# Corrected version of the code with unit test case.
+# Used Pytest here
+# To run the unit-test install pytest package and run pytest question-1_unit-test.py
 
 def f(s):
     r = {}
